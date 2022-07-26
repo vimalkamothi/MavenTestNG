@@ -42,7 +42,7 @@ public class AllureTest_TC01 {
 	
 	@Test(priority=3)
 	public void registrationTest() {
-		throw new SkipException("Skipping this test");
+		System.out.println("Registration test passed.");
 	}
 	
 	@AfterClass
